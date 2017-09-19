@@ -1,0 +1,338 @@
+@charset "utf-8";
+
+#vpb_chat_wrapper
+{
+	width:500px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;border-radius: 5px;
+	border: solid 1px #cbcbcb;
+	background-color: #FFF;
+	box-shadow: 0 2px 10px #cbcbcb;
+	-moz-box-shadow: 0 2px 10px #cbcbcb;
+	-webkit-box-shadow: 0 2px 10px #cbcbcb;
+	opacity:1;
+}
+
+.vpb_left_header 
+{
+	width:300px;
+	height:20px;
+	padding-top:5px;
+	padding-bottom:4px; 
+	margin: 0px;
+	border-bottom:1px solid #cbcbcb;
+	 box-shadow: 0 0 10px #cbcbcb;
+	-moz-box-shadow: 0 0 10px #cbcbcb;
+	-webkit-box-shadow: 0 0 10px #cbcbcb;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	-webkit-border-radius: 5px 0px 0px 0px;-moz-border-radius: 5px 0px 0px 0px; border-radius: 5px 0px 0px 0px;
+	background: #F9F9F9;
+	/*-webkit-border-radius: 15px 15px; 15px 15px;-moz-border-radius: 15px 15px; 15px 15px;border-radius: 15px 15px; 15px 15px;*/
+	/*word-wrap: break-word; /* break every long URLs or contents */
+}
+
+
+#sessionFullname{padding-left:5px; paddinf-right:5px;}
+#sessionUserID{padding-left:5px;}
+
+.vpb_right_header 
+{
+	width:199px;
+	height:20px;
+	padding-top:5px;
+	padding-bottom:4px; 
+	margin: 0px;
+	border-bottom:1px solid #cbcbcb;
+	 background-color: #F6F6F6;
+	 box-shadow: 0 0 10px #cbcbcb;
+	-moz-box-shadow: 0 0 10px #cbcbcb;
+	-webkit-box-shadow: 0 0 10px #cbcbcb;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	-webkit-border-radius: 0px 5px 0px 0px;-moz-border-radius: 0px 5px 0px 0px;  border-radius: 0px 5px 0px 0px;
+	/*word-wrap: break-word;*/
+}
+
+/*Input and Textarea Boxes*/
+.vpb_text_input_box
+{
+	width:280px; 
+	height:20px;
+	font-family:Verdana, Geneva, sans-serif; 
+	font-size:12px;
+	padding:8px; 
+	padding-left:10px; 
+	padding-right:10px;
+	padding-top:6px;
+	border: 0px solid #4195fc;
+	outline:none;
+	line-height:20px;
+	-webkit-border-radius: 0px 0px 0px 5px;-moz-border-radius: 0px 0px 0px 5px; border-radius: 0px 0px 0px 5px;
+}
+/*Input and Textarea Boxes*/
+.vpb_text_input_box:focus 
+{
+	outline:none;
+	border: 0px solid #4195fc;
+	box-shadow: 0px 0px 10px #4195fc;
+	-moz-box-shadow: 0px 0px 10px #4195fc;
+	-webkit-box-shadow: 0px 0px 10px #4195fc;
+}
+
+.vpb_text_input_box:hover {outline:none;border: 0px solid #3CF;box-shadow: 0px 0px 14px #3CF;-moz-box-shadow: 0px 0px 14px #3CF;-webkit-box-shadow: 0px 0px 14px #3CF;}
+
+
+.aadileds{
+	font-weight:bold; font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+	background:#f2f2f2 url('../../chat_application/smileys/addfile.png') no-repeat 12px 9px;
+	color:green;
+	border:1px solid #ccc;
+	height:30px;
+	cursor: default;
+	width:106px;
+	-moz-border-radius:5px; -webkit-border-radius:5px;
+}
+
+.textAreaBox {font-family:Verdana, Geneva, sans-serif; font-size:12px;padding:9px; padding-top:9px; padding-left:10px; padding-right:10px;border: 1px solid #CCC;outline:none;border-radius: 4px;-moz-border-radius: 4px;-webkit-border-radius:4px;}.textAreaBox:focus {outline:none;border: 1px solid #3CF;box-shadow: 0px 0px 14px #3CF;-moz-box-shadow: 0px 0px 14px #3CF;-webkit-box-shadow: 0px 0px 14px #3CF;}
+
+
+.textAreaBoxed {font-family:Verdana, Geneva, sans-serif; font-size:12px;padding:9px; padding-top:9px; padding-left:10px; padding-right:10px;border: 1px solid #CCC;outline:none;}.textAreaBoxed:focus {outline:none;border: 1px solid #3CF;box-shadow: 0px 0px 14px #3CF;-moz-box-shadow: 0px 0px 14px #3CF;-webkit-box-shadow: 0px 0px 14px #3CF;}.textAreaBoxed:hover {outline:none;border: 1px solid #3CF;box-shadow: 0px 0px 14px #3CF;-moz-box-shadow: 0px 0px 14px #3CF;-webkit-box-shadow: 0px 0px 14px #3CF;}
+
+/*Buttons*/
+#vasplus_programming_blog_chat_BTN
+{
+  background-color: #ee432e;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ee432e), color-stop(50%, #c63929), color-stop(50%, #b51700), color-stop(100%, #891100));
+  background-image: -webkit-linear-gradient(top, #ee432e 0%, #c63929 50%, #b51700 50%, #891100 100%);
+  background-image: -moz-linear-gradient(top, #ee432e 0%, #c63929 50%, #b51700 50%, #891100 100%);
+  background-image: -ms-linear-gradient(top, #ee432e 0%, #c63929 50%, #b51700 50%, #891100 100%);
+  background-image: -o-linear-gradient(top, #ee432e 0%, #c63929 50%, #b51700 50%, #891100 100%);
+  background-image: linear-gradient(top, #ee432e 0%, #c63929 50%, #b51700 50%, #891100 100%);
+  border: 1px solid #951100;box-shadow: 0 2px 3px #951100;-moz-box-shadow: 0 2px 3px #951100;-webkit-box-shadow: 0 2px 3px #951100;
+  -webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4), 0 1px 3px #333333;
+  box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4), 0 1px 3px #333333;
+  color: #fff;
+  font-family:Verdana, Geneva, sans-serif;
+  font-size:14px;
+  padding: 9px;
+  padding-left: 11px;
+  padding-right: 11px;
+  text-align: center;
+  text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.8);
+  width: 70px;
+  text-decoration:none;
+}
+#vasplus_programming_blog_chat_BTN:hover 
+{
+    background-color: #f37873;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f37873), color-stop(50%, #db504d), color-stop(50%, #cb0500), color-stop(100%, #a20601));
+    background-image: -webkit-linear-gradient(top, #f37873 0%, #db504d 50%, #cb0500 50%, #a20601 100%);
+    background-image: -moz-linear-gradient(top, #f37873 0%, #db504d 50%, #cb0500 50%, #a20601 100%);
+    background-image: -ms-linear-gradient(top, #f37873 0%, #db504d 50%, #cb0500 50%, #a20601 100%);
+    background-image: -o-linear-gradient(top, #f37873 0%, #db504d 50%, #cb0500 50%, #a20601 100%);
+    background-image: linear-gradient(top, #f37873 0%, #db504d 50%, #cb0500 50%, #a20601 100%);
+    cursor: pointer; }
+#vasplus_programming_blog_chat_BTN:active 
+{
+    background-color: #d43c28;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d43c28), color-stop(50%, #ad3224), color-stop(50%, #9c1500), color-stop(100%, #700d00));
+    background-image: -webkit-linear-gradient(top, #d43c28 0%, #ad3224 50%, #9c1500 50%, #700d00 100%);
+    background-image: -moz-linear-gradient(top, #d43c28 0%, #ad3224 50%, #9c1500 50%, #700d00 100%);
+    background-image: -ms-linear-gradient(top, #d43c28 0%, #ad3224 50%, #9c1500 50%, #700d00 100%);
+    background-image: -o-linear-gradient(top, #d43c28 0%, #ad3224 50%, #9c1500 50%, #700d00 100%);
+    background-image: linear-gradient(top, #d43c28 0%, #ad3224 50%, #9c1500 50%, #700d00 100%);
+    -webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4);
+    box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4); 
+}
+
+#vasplus_programming_blog_chat_BTNG 
+{
+ background-color: #7fbf4d;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7fbf4d), color-stop(100%, #63a62f));
+  background-image: -webkit-linear-gradient(top, #7fbf4d, #63a62f);
+  background-image: -moz-linear-gradient(top, #7fbf4d, #63a62f);
+  background-image: -ms-linear-gradient(top, #7fbf4d, #63a62f);
+  background-image: -o-linear-gradient(top, #7fbf4d, #63a62f);
+  background-image: linear-gradient(top, #7fbf4d, #63a62f);
+  border: 2px solid #63a62f;box-shadow: 0 2px 3px #666666;-moz-box-shadow: 0 2px 3px #666666;-webkit-box-shadow: 0 2px 3px #666666;
+  -webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;
+  color: #fff;
+  font-family:Verdana, Geneva, sans-serif;
+  font-size:13px;
+  text-align: center;
+  text-shadow: 0 -1px 0 #4c9021;
+  min-width:70px;
+  width: auto;
+  padding:8px;
+  float:left;
+  margin-right:20px;
+  text-decoration:none;
+}
+#vasplus_programming_blog_chat_BTNG:hover 
+{
+    background-color: #76b347;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #76b347), color-stop(100%, #5e9e2e));
+    background-image: -webkit-linear-gradient(top, #76b347, #5e9e2e);
+    background-image: -moz-linear-gradient(top, #76b347, #5e9e2e);
+    background-image: -ms-linear-gradient(top, #76b347, #5e9e2e);
+    background-image: -o-linear-gradient(top, #76b347, #5e9e2e);
+    background-image: linear-gradient(top, #76b347, #5e9e2e);
+    box-shadow: 0 2px 3px #666666;
+	-moz-box-shadow: 0 2px 3px #666666;
+	-webkit-box-shadow: 0 2px 3px #666666;
+	-webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;
+    cursor: pointer; 
+	text-decoration:none;
+}
+#vpb_info { border: 1px solid #999; margin: 0px 0px; margin-bottom:0px; padding:12px 20px 12px 20px; width: 460px;font: bold 12px verdana;-moz-box-shadow: 0 0 5px #888; -webkit-box-shadow: 0 0 5px#888;box-shadow: 0 0 5px #888;text-shadow: 2px 2px 2px #ccc;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;font-family:Verdana, Geneva, sans-serif; font-size:11px; line-height:20px;font-weight:normal;color: black;background: #BDE5F8;}
+
+.info { border: 1px solid #999; margin: 0px 0px; margin-bottom:0px; padding:12px 20px 12px 20px; width: 460px;font: bold 12px verdana;-moz-box-shadow: 0 0 5px #888; -webkit-box-shadow: 0 0 5px#888;box-shadow: 0 0 5px #888;text-shadow: 2px 2px 2px #ccc;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;font-family:Verdana, Geneva, sans-serif; font-size:11px; line-height:20px;font-weight:normal;color: black;background: #BDE5F8;}
+
+
+.ccc A:link {text-decoration: none}
+.ccc A:visited {text-decoration: none}
+.ccc A:active {text-decoration: none}
+.ccc A:hover {text-decoration:underline; font: Arial, Helvetica, sans-serif;color: blue;} 
+
+
+span.nprofileimg { margin:auto; text-align:left; }
+span.nprofileimg img { display:inline; border:6px solid #E2E2E2;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px; }
+span.nprofileimg a:hover img { border:6px solid #CCC;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px; } 
+
+a.vasplus_tooltips {outline:none; }
+a.vasplus_tooltips strong {line-height:30px;}
+a.vasplus_tooltips:hover {text-decoration:none;} 
+a.vasplus_tooltips span {
+    z-index:9999999999999999;display:none; padding:6px 15px;
+    margin-top:-50px; margin-left:-25px;
+    width:auto; line-height:16px;
+}
+a.vasplus_tooltips:hover span{
+    display:inline; position:absolute; color:#111;
+    border:1px solid #DCA; background:#fffAF0;}
+.callout {z-index:9999999999999999;position:absolute;top:30px;border:0;left:-12px;}
+    
+/*CSS3 extras*/
+a.vasplus_tooltips span
+{
+    border-radius:4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+        
+    -moz-box-shadow: 5px 5px 5px green;
+    -webkit-box-shadow: 5px 5px 5px green;
+    box-shadow: 5px 5px 5px green;
+}
+
+.vasplusChat_OnlineUsers{width: 150px; float:left;}.vasplusChat_OnlineUsers ul{ list-style-type: none;margin: 0;padding: 0;margin-bottom: 0; }.vasplusChat_OnlineUsers ul li{padding-bottom: 2px; border:1px solid #F4F4F4; border-bottom: 2px solid #E1E1E1;}.vasplusChat_OnlineUsers ul li a{ font-family:Verdana, Geneva, sans-serif; font-size:12px; font-weight:normal;color: black;background: #F9F9F9;display: block;padding: 9px 0;line-height: 20px;padding-left: 8px;text-decoration: none;}.vasplusChat_OnlineUsers ul li a:hover{color: blue;background: #FFF;}
+
+
+/*Scroller*/
+div::-webkit-scrollbar {
+    overflow: visible;
+    width: 18px;
+}
+div::-webkit-scrollbar-thumb {
+    border-width: 1px 1px 1px 2px
+}
+div::-webkit-scrollbar-track {
+    border-width: 0
+}
+div::-webkit-scrollbar-button {
+    height: 0;
+    width: 0;
+}
+div::-webkit-scrollbar-track {
+    background-clip: padding-box;
+    border: solid transparent;
+    border-width: 0 0 0 4px;
+}
+div::-webkit-scrollbar-track:horizontal {
+    border-width: 4px 0 0
+}
+div::-webkit-scrollbar-track:hover {
+    background-color: rgba(220,172,0,.05);
+    box-shadow: inset 1px 0 0 rgba(220,172,0,.1);
+}
+div::-webkit-scrollbar-track:horizontal:hover {
+    box-shadow: inset 0 1px 0 rgba(220,172,0,.1)
+}
+div::-webkit-scrollbar-track:active {
+    background-color: rgba(220,172,0,.05);
+    box-shadow: inset 1px 0 0 rgba(220,172,0,.14),inset -1px 0 0 rgba(220,172,0,.07);
+}
+div::-webkit-scrollbar-track:horizontal:active {
+    box-shadow: inset 0 1px 0 rgba(220,172,0,.14),inset 0 -1px 0 rgba(220,172,0,.07)
+}
+div::-webkit-scrollbar-thumb {
+    background-color: rgba(220,172,0,.2);
+    background-clip: padding-box;
+    border: solid transparent;
+    border-width: 1px 1px 1px 6px;
+    min-height: 28px;
+    padding: 100px 0 0;
+    box-shadow: inset 1px 1px 0 rgba(220,172,0,.1),inset 0 -1px 0 rgba(220,172,0,.07);
+}
+div::-webkit-scrollbar-thumb:horizontal {
+    border-width: 6px 1px 1px;
+    padding: 0 0 0 100px;
+    box-shadow: inset 1px 1px 0 rgba(220,172,0,.1),inset -1px 0 0 rgba(220,172,0,.07);
+}
+div::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(220,172,0,.4);
+    box-shadow: inset 1px 1px 1px rgba(220,172,0,.25);
+}
+div::-webkit-scrollbar-thumb:active {
+    background-color: rgba(220,172,0,0.5);
+    box-shadow: inset 1px 1px 3px rgba(220,172,0,0.35);
+}
+div::-webkit-scrollbar-track {
+    border-width: 0 1px 0 6px
+}
+div::-webkit-scrollbar-track:horizontal {
+    border-width: 6px 0 1px
+}
+div::-webkit-scrollbar-track:hover {
+    background-color: rgba(220,172,0,.035);
+    box-shadow: inset 1px 1px 0 rgba(220,172,0,.14),inset -1px -1px 0 rgba(220,172,0,.07);
+}
+div::-webkit-scrollbar-thumb {
+    border-width: 0 1px 0 6px
+}
+div::-webkit-scrollbar-thumb:horizontal {
+    border-width: 6px 0 1px
+}
+div::-webkit-scrollbar-corner {
+    background: transparent
+}
+div::-webkit-scrollbar-track-piece {
+    background-clip: padding-box;
+    background-color: #F2F2F2;
+    border: solid #fff;
+    border-width: 0 0 0 3px;
+    box-shadow: inset 1px 0 0 rgba(220,172,0,.14),inset -1px 0 0 rgba(220,172,0,.07);
+}
+div::-webkit-scrollbar-track-piece:horizontal {
+    border-width: 3px 0 0;
+    box-shadow: inset 0 1px 0 rgba(220,172,0,.14),inset 0 -1px 0 rgba(220,172,0,.07);
+}
+div::-webkit-scrollbar-thumb {
+    border-width: 1px 1px 1px 5px
+}
+div::-webkit-scrollbar-thumb:horizontal {
+    border-width: 5px 1px 1px
+}
+div::-webkit-scrollbar-corner {
+    background-clip: padding-box;
+    background-color: #F2F2F2;
+    border: solid #fff;
+    border-width: 3px 0 0 3px;
+    box-shadow: inset 1px 1px 0 rgba(220,172,0,.14);
+}
